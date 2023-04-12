@@ -71,7 +71,7 @@ function typeText(element, text) {
     const messageDiv = document.getElementById(uniqueId);
     loader(messageDiv)
 
-    const response = await fetch ('https://argue-x-bot.onrender.com', {
+    const response = await fetch ('https://argue-x-bot.onrender.com/', {
       method: 'Post',
       headers: {
         'Content-Type': 'application/json'
